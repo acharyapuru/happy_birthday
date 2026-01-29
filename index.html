@@ -128,7 +128,7 @@
             <div class="boxMail-container">
                 <div class="card1">
                     <div class="userImg">
-                        <img src="images/unnamed.png" alt="">
+                        <img src="images/img-4.jpg" alt="">
                     </div>
                     <h4 class="username">To: Rupa 💖<span class="underline"></span></h4>
 
@@ -375,13 +375,13 @@
         const checkModalActive = setInterval(function() {
             if (boxmail.classList.contains('active')) {
                 clearInterval(checkModalActive);
-                // Auto-open card2 after 4 seconds delay
+                // Auto-open card2 after 2 seconds delay
                 setTimeout(function() {
                     card2.style.transform = 'translate(-50%, -50%)';
                     card2.style.zIndex = '2';
                     boxMailContainer.style.transform = 'rotate(-5deg)';
                     boxMailContainer.style.filter = 'drop-shadow(0 0 10px #FF7882)';
-                }, 10000);
+                }, 2000);
             }
         }, 100);
     }
